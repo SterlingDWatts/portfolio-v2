@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project Component renders the UI as expected 1`] = `
+<div
+  className="Project"
+>
+  <header>
+    <h3 />
+  </header>
+  <img />
+  <div
+    className="Project__about"
+  >
+    <button
+      className="Project__more_info"
+      onClick={[Function]}
+    >
+      more info
+    </button>
+    <h5>
+       | 
+      <a
+        target="_blank"
+      >
+        Live App
+      </a>
+       | 
+      <a
+        target="_blank"
+      >
+        Repo
+      </a>
+    </h5>
+    <p />
+  </div>
+</div>
+`;

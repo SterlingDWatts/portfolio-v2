@@ -1,0 +1,16 @@
+.PageLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.PageLinks li {
+    margin-left: 16px;
+}
+
+.burger_button {
+    border: none;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fcd734;
+}

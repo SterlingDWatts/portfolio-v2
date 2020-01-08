@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects Component renders the UI as expected 1`] = `
+<section
+  className="Projects"
+>
+  <header>
+    <h2>
+      Projects
+    </h2>
+  </header>
+  <div
+    className="Project"
+  >
+    <header>
+      <h3>
+        Quaff Quizz
+      </h3>
+    </header>
+    <img
+      alt="Sterling in Italy"
+      src="https://sterlingdwatts.github.io/portfolio/images/quaff-quiz-mobile.png"
+    />
+    <div
+      className="Project__about"
+    >
+      <button
+        className="Project__more_info"
+        onClick={[Function]}
+      >
+        more info
+      </button>
+      <h5>
+        Quaff Quizz
+         | 
+        <a
+          href="https://sterlingdwatts.github.io/quaff_quizz"
+          target="_blank"
+        >
+          Live App
+        </a>
+         | 
+        <a
+          href="https://github.com/SterlingDWatts/quaff_quizz"
+          target="_blank"
+        >
+          Repo
+        </a>
+      </h5>
+      <p>
+        A fun wine quiz web app with over 20 questions ranging over 4 topics.
+      </p>
+    </div>
+  </div>
+</section>
+`;

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageLinks Component renders the UI as expected 1`] = `
+<ul
+  className="PageLinks"
+>
+  <li
+    className="PageLink large"
+  >
+    <a
+      href="/#about-me"
+      onClick={[Function]}
+    >
+      About Me
+    </a>
+  </li>
+  <li
+    className="PageLink large"
+  >
+    <a
+      href="/#projects"
+      onClick={[Function]}
+    >
+      Projects
+    </a>
+  </li>
+  <li
+    className="PageLink large"
+  >
+    <a
+      href="/#connect"
+      onClick={[Function]}
+    >
+      Connect
+    </a>
+  </li>
+  <li
+    className="PageLink large"
+  >
+    <a
+      href="/blog"
+      onClick={[Function]}
+    >
+      Blog
+    </a>
+  </li>
+  <li
+    className="small"
+  >
+    <button
+      className="burger_button"
+    >
+      <i
+        className="fas fa-bars"
+      />
+    </button>
+  </li>
+</ul>
+`;

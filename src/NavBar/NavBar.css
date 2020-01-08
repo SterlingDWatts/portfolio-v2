@@ -1,0 +1,25 @@
+.NavBar {
+    padding: 16px;
+    background-color: #003d32;
+    color: #fcd734;
+    line-height: 1;
+    min-height: 48px;
+    z-index: 10;
+    box-shadow:  6px 6px 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+.NavBar a:link, .NavBar a:visited {
+    color: #fcd734;
+    text-decoration: none;
+}
+
+.NavBar:nth-child(1) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.NavBar--hidden:nth-child(1) {
+    top: -47px;
+}

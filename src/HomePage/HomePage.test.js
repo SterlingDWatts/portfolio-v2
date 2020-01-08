@@ -1,30 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
 import renderer from 'react-test-renderer';
-import App from './App';
+import HomePage from './HomePage';
 
-describe(`App Component`, () => {
+describe(`HomePage Component`, () => {
 
     it('renders without crashing', () => {
         const div = document.createElement('div');
-        ReactDOM.render(
-            <BrowserRouter>
-                <App />
-            </BrowserRouter>, 
-            div
-        );
+        ReactDOM.render(<HomePage />, div);
         ReactDOM.unmountComponentAtNode(div);
     });
 
     it('renders the UI as expected', () => {
         const tree = renderer
-            .create(
-                <BrowserRouter>
-                    <App />
-                </BrowserRouter>)
+            .create(<HomePage />)
             .toJSON();
         expect(tree).toMatchSnapshot();
-    })
+    });
 
 })

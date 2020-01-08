@@ -2,15 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import renderer from 'react-test-renderer';
-import App from './App';
+import PageLinks from './PageLinks';
 
-describe(`App Component`, () => {
+describe(`PageLinks Component`, () => {
 
     it('renders without crashing', () => {
         const div = document.createElement('div');
         ReactDOM.render(
             <BrowserRouter>
-                <App />
+                <PageLinks />
             </BrowserRouter>, 
             div
         );
@@ -19,12 +19,9 @@ describe(`App Component`, () => {
 
     it('renders the UI as expected', () => {
         const tree = renderer
-            .create(
-                <BrowserRouter>
-                    <App />
-                </BrowserRouter>)
+            .create(<BrowserRouter><PageLinks /></BrowserRouter>)
             .toJSON();
         expect(tree).toMatchSnapshot();
-    })
+    });
 
 })
