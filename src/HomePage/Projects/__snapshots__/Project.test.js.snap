@@ -4,34 +4,39 @@ exports[`Project Component renders the UI as expected 1`] = `
 <div
   className="Project"
 >
-  <header>
+  <header
+    className="Project__header"
+  >
     <h3 />
   </header>
-  <img />
   <div
-    className="Project__about"
+    className="Project__pic undefined_pic"
   >
-    <button
-      className="Project__more_info"
-      onClick={[Function]}
+    <div
+      className="Project__about"
     >
-      more info
-    </button>
-    <h5>
-       | 
-      <a
-        target="_blank"
+      <h5>
+         | 
+        <a
+          target="_blank"
+        >
+          Live App
+        </a>
+         | 
+        <a
+          target="_blank"
+        >
+          Repo
+        </a>
+      </h5>
+      <p />
+      <button
+        className="Project__more_info"
+        onClick={[Function]}
       >
-        Live App
-      </a>
-       | 
-      <a
-        target="_blank"
-      >
-        Repo
-      </a>
-    </h5>
-    <p />
+        more info
+      </button>
+    </div>
   </div>
 </div>
 `;

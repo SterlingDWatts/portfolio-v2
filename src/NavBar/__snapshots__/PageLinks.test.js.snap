@@ -5,37 +5,34 @@ exports[`PageLinks Component renders the UI as expected 1`] = `
   className="PageLinks"
 >
   <li
-    className="PageLink large"
+    className="large"
   >
     <a
-      href="/#about-me"
-      onClick={[Function]}
+      href="#about-me"
     >
       About Me
     </a>
   </li>
   <li
-    className="PageLink large"
+    className="large"
   >
     <a
-      href="/#projects"
-      onClick={[Function]}
+      href="#projects"
     >
       Projects
     </a>
   </li>
   <li
-    className="PageLink large"
+    className="large"
   >
     <a
-      href="/#connect"
-      onClick={[Function]}
+      href="#connect"
     >
       Connect
     </a>
   </li>
   <li
-    className="PageLink large"
+    className="large"
   >
     <a
       href="/blog"
